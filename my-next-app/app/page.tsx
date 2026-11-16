@@ -3,6 +3,7 @@ import LifeStory from "./LifeStory";
 import FamilySection from "./FamilySection";
 import ElegantGallery from "./ElegantGallery";
 import ServiceDetails from "./ServiceDetails";
+import VenueMap from "./VenueMap";
 import Tributes from "./Tributes";
 import FooterSection from "./FooterSection";
 
@@ -122,6 +123,8 @@ export default function Home() {
       <ElegantGallery />
 
       <ServiceDetails events={personInfo.serviceEvents} />
+
+      <VenueMap />
 
       <Tributes initialTributes={personInfo.initialTributes} />
 
