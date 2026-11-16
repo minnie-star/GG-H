@@ -4,6 +4,7 @@ import FamilySection from "./FamilySection";
 import ElegantGallery from "./ElegantGallery";
 import ServiceDetails from "./ServiceDetails";
 import VenueMap from "./VenueMap";
+import OnlineParticipation from "./OnlineParticipation";
 import Tributes from "./Tributes";
 import FooterSection from "./FooterSection";
 
@@ -125,6 +126,8 @@ export default function Home() {
       <ServiceDetails events={personInfo.serviceEvents} />
 
       <VenueMap />
+
+      <OnlineParticipation />
 
       <Tributes initialTributes={personInfo.initialTributes} />
 
