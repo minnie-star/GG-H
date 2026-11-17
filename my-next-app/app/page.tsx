@@ -2,6 +2,7 @@ import HeroNew from "./HeroNew";
 import LifeStory from "./LifeStory";
 import FamilySection from "./FamilySection";
 import ElegantGallery from "./ElegantGallery";
+import VideoMemorial from "./VideoMemorial";
 import ServiceDetails from "./ServiceDetails";
 import VenueMap from "./VenueMap";
 import OnlineParticipation from "./OnlineParticipation";
@@ -14,13 +15,15 @@ const personInfo = {
   deathYear: "2026",
   quote:
     "The greatest legacy we leave behind is the love we shared and the lives we touched.",
-  biography: `Gcinaphi Gertrude Hlongwane was born on the 1st of January, 1948, to a loving family in South Africa. With a heart full of compassion and a spirit that radiated warmth, she lived a life dedicated to her family, her community, and the values she held dear.
+  biography: `Gcinaphi was born on January 1, 1948, in KwaSwayimani, Pietermaritzburg in the district of KwaGqugquma to Mr. Paulose and Mrs. Alvinah Mkhize. 
+  
+  Gcinaphi grew and attended school, she loved school. Unfortunately, her father preferred that she stayed home to take care of household responsibilities during the day when her mother went to work. 
 
-Throughout her 76 years, Gcinaphi was known for her unwavering strength, her infectious laughter, and her ability to make everyone feel valued and loved. She was a devoted mother, grandmother, and great-grandmother, always ensuring that family gatherings were filled with joy, good food, and meaningful conversation.
+  The Mkhize family loved church and Gcinaphi was a member of a church choir. The Choir conductor fell in love with Gcinaphi. In 1969 Gcinaphi married her sweetheart Sphiwe Emmanuel Hlongwane and together raised seven children, Busisiwe, Thandekile, Ntombifuthi, Lorraine, Zanele, Aurah and Sandile. She worked for Comet Andries factory for a few years and then became a full-time housewife. She instilled gospel learning in her household and took all her children to church every Sunday. 
 
-A woman of faith and principle, she served her community with grace and dignity, always putting others first. Her wisdom, gained through decades of lived experience, was freely shared with those who sought her counsel. She had a remarkable gift for bringing people together and creating moments that would be cherished for generations to come.
+  After the passing of her husband in 1992, Gcinaphi continued raising her children with the support from her late husband’s employer, her sister, Harriet, brother, Samuel, and loving community of KwaMashu in uMdoni Road. 
 
-Gcinaphi's legacy is not measured by what she accumulated, but by the profound impact she made on the lives of those who knew her. She will be remembered as a beacon of love, strength, and compassion.`,
+  Gcinaphi was predeceased by her beloved parents, husband, brothers Samuel and Mphenyi Mkhize and her son law Mr. Mpikanelanga Manyathi. She is survived by her sister Harriet Mkhize, her sister-in-law Mathusi, her seven children, her daughter in law, Mrs. Yoliswa Hlongwane, her sons in law, Dr. Khumbulani Mdletshe, Mr. Ephraim Nsibande, Mr. Ellis Mnyandu, Mr. Emelian Aagyredwomoh, her beloved 19 grandchildren and one great grandchild Lukhona uThando. `,
   familyMembers: [
     {
       name: "Busisiwe Hlongwane",
@@ -117,17 +120,19 @@ export default function Home() {
         portraitSrc="/photos/1.jpg"
       />
 
+      <OnlineParticipation />
+
       <LifeStory biography={personInfo.biography} />
 
       <FamilySection familyMembers={personInfo.familyMembers} />
 
       <ElegantGallery />
 
+      <VideoMemorial />
+
       <ServiceDetails events={personInfo.serviceEvents} />
 
       <VenueMap />
-
-      <OnlineParticipation />
 
       <Tributes initialTributes={personInfo.initialTributes} />
 

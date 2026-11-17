@@ -136,7 +136,7 @@ export default function OnlineParticipation() {
         {/* Additional Information */}
         <div className="mt-12 p-6 border-l-4 border-champagne bg-champagne/5 rounded">
           <p className="text-warm-gray leading-relaxed">
-            <span className="font-semibold text-charcoal">Technical Support:</span> If you experience any difficulties accessing either the YouTube live stream or Zoom meeting, please contact the family on +27 (0) 82 XXX XXXX for assistance.
+            <span className="font-semibold text-charcoal">Technical Support:</span> If you experience any difficulties accessing either the YouTube live stream or Zoom meeting, please contact the family on +27 (0) 60 916 4067 for assistance.
           </p>
         </div>
       </div>
