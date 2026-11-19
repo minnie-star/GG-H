@@ -10,6 +10,13 @@ export default function ElegantGallery() {
   const touchStartX = useRef(0);
   const touchEndX = useRef(0);
 
+  // Helper function to get correct file extension
+  const getPhotoPath = (photoNum: number) => {
+    if (photoNum === 1) return `/photos/1.jpg`;
+    if (photoNum === 2) return `/photos/2.jpg`;
+    return `/photos/${photoNum}.jpeg`;
+  };
+
   // Handle touch events for swipe
   const handleTouchStart = (e: React.TouchEvent) => {
     touchStartX.current = e.changedTouches[0].screenX;
@@ -89,7 +96,7 @@ export default function ElegantGallery() {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src={`/photos/${n}.jpg`}
+                src={getPhotoPath(n)}
                 alt={`Memory ${n}`}
                 className="h-full w-full object-cover"
               />
@@ -116,7 +123,7 @@ export default function ElegantGallery() {
               <div className="relative w-full max-h-[calc(85vh-100px)]">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src={`/photos/${selectedIndex + 1}.jpg`}
+                  src={getPhotoPath(selectedIndex + 1)}
                   alt={`Memory ${selectedIndex + 1}`}
                   className="w-full h-full object-contain rounded-lg shadow-2xl"
                 />
@@ -217,7 +224,7 @@ export default function ElegantGallery() {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src={`/photos/${n}.jpg`}
+                    src={getPhotoPath(n)}
                     alt={`Thumbnail ${n}`}
                     className="w-full h-full object-cover"
                   />
