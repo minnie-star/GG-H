@@ -19,7 +19,7 @@ const personInfo = {
   
   Gcinaphi grew and attended school, she loved school. Unfortunately, her father preferred that she stayed home to take care of household responsibilities during the day when her mother went to work. 
 
-  The Mkhize family loved church and Gcinaphi was a member of a church choir. The Choir conductor fell in love with Gcinaphi. In 1969 Gcinaphi married her sweetheart Sphiwe Emmanuel Hlongwane and together raised seven children, Busisiwe, Thandekile, Ntombifuthi, Lorraine, Zanele, Aurah and Sandile. She worked for Comet Andries factory for a few years and then became a full-time housewife. She instilled gospel learning in her household and took all her children to church every Sunday. 
+  The Mkhize family loved church and Gcinaphi was a member of a church choir. The Choir conductor fell in love with Gcinaphi. In 1969 Gcinaphi married her sweetheart Siphiwe Emmanuel Hlongwane and together raised seven children, Busisiwe, Thandekile, Ntombifuthi, Lorraine, Zanele, Aurah and Sandile. She worked for Comet Andries factory for a few years and then became a full-time housewife. She instilled gospel learning in her household and took all her children to church every Sunday. 
 
   After the passing of her husband in 1992, Gcinaphi continued raising her children with the support from her late husband’s employer, her sister, Harriet, brother, Samuel, and loving community of KwaMashu in uMdoni Road. 
 
@@ -53,7 +53,7 @@ const personInfo = {
     {
       name: "Aurah Agyare-Dwomoh",
       relationship: "Daughter",
-      quote: "We miss you dearly",
+      quote: "Fly high skhokho sami",
     },
     {
       name: "Sandile Hlongwane",
