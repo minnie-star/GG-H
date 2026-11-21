@@ -25,57 +25,9 @@ export default function OnlineParticipation() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
-          {/* YouTube Stream */}
-          <div className="space-y-6 p-8 border border-champagne/30 bg-ivory rounded-lg hover:border-champagne/60 hover:shadow-lg transition-all duration-300">
-            <div className="space-y-4">
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-full bg-red-100 flex items-center justify-center">
-                  <svg
-                    className="w-6 h-6 text-red-600"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
-                  </svg>
-                </div>
-                <h3 className="serif-heading text-2xl text-charcoal">
-                  Live Stream
-                </h3>
-              </div>
-              <p className="text-warm-gray leading-relaxed">
-                Watch the funeral service live on YouTube. The broadcast will begin at 10:00 AM on Saturday, November 21st, 2026.
-              </p>
-            </div>
-
-            <div className="space-y-3">
-              <p className="text-sm font-semibold text-charcoal uppercase tracking-widest">
-                Service Date & Time
-              </p>
-              <p className="text-lg text-charcoal">
-                Saturday, 21 November 2026 • 10:00 AM SAST
-              </p>
-            </div>
-
-            <a
-              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-8 py-3 bg-red-600 text-white hover:bg-red-700 transition-colors duration-300 serif-heading uppercase tracking-widest text-sm rounded"
-            >
-              <svg
-                className="w-5 h-5"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path d="M8 5v14l11-7z" />
-              </svg>
-              Watch on YouTube
-            </a>
-          </div>
-
+        <div className="flex justify-center">
           {/* Zoom Meeting */}
-          <div className="space-y-6 p-8 border border-champagne/30 bg-ivory rounded-lg hover:border-champagne/60 hover:shadow-lg transition-all duration-300">
+          <div className="w-full max-w-md space-y-6 p-8 border border-champagne/30 bg-ivory rounded-lg hover:border-champagne/60 hover:shadow-lg transition-all duration-300">
             <div className="space-y-4">
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center">
@@ -92,7 +44,7 @@ export default function OnlineParticipation() {
                 </h3>
               </div>
               <p className="text-warm-gray leading-relaxed">
-                Participate in an interactive virtual memorial service via Zoom. Connect with family and friends from anywhere in the world.
+                Invited by Bishop. Participate in an interactive virtual memorial service via Zoom. Connect with family and friends from anywhere in the world.
               </p>
             </div>
 
@@ -102,7 +54,7 @@ export default function OnlineParticipation() {
                   Meeting ID
                 </p>
                 <p className="text-lg text-charcoal font-mono">
-                  123 456 7890
+                  993 2352 5167
                 </p>
               </div>
               <div>
@@ -110,13 +62,13 @@ export default function OnlineParticipation() {
                   Passcode
                 </p>
                 <p className="text-lg text-charcoal font-mono">
-                  123456
+                  999457
                 </p>
               </div>
             </div>
 
             <a
-              href="https://zoom.us/wc/join/123456789"
+              href="https://zoom.us/j/99323525167?pwd=IFLlnhDpDlaoHJba0bX9dJMJdubPph.1"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-3 bg-blue-600 text-white hover:bg-blue-700 transition-colors duration-300 serif-heading uppercase tracking-widest text-sm rounded"
@@ -136,7 +88,7 @@ export default function OnlineParticipation() {
         {/* Additional Information */}
         <div className="mt-12 p-6 border-l-4 border-champagne bg-champagne/5 rounded">
           <p className="text-warm-gray leading-relaxed">
-            <span className="font-semibold text-charcoal">Technical Support:</span> If you experience any difficulties accessing either the YouTube live stream or Zoom meeting, please contact the family on +27 (0) 60 916 4067 for assistance.
+            <span className="font-semibold text-charcoal">Technical Support:</span> If you experience any difficulties accessing the Zoom meeting, please contact the family on +27 (0) 60 916 4067 for assistance.
           </p>
         </div>
       </div>

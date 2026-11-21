@@ -35,9 +35,10 @@ export default function LifeStory({ biography }: { biography: string }) {
           {[
             { label: "Years Lived", value: "78" },
             { label: "Siblings", value: "4" },
-            { label: "Children", value: "8" },
+            { label: "Children", value: "7" },
             { label: "Grandchildren", value: "20" },
             { label: "Great-grandchildren", value: "2" },
+            { label: "Nieces & Nephews", value: "4" },
           ].map((stat) => (
             <div key={stat.label} className="text-center space-y-2">
               <p className="serif-display text-3xl text-champagne">

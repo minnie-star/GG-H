@@ -13,7 +13,8 @@ export default function ElegantGallery() {
   // Helper function to get correct file extension
   const getPhotoPath = (photoNum: number) => {
     if (photoNum === 1) return `/photos/1.jpg`;
-    if (photoNum === 2) return `/photos/2.jpg`;
+    if (photoNum === 2) return `/photos/2.jpeg`;
+    if (photoNum === 6) return `/photos/6.jpg`;
     return `/photos/${photoNum}.jpeg`;
   };
 
